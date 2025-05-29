@@ -81,7 +81,10 @@ public interface StoreAPI {
     @GET("partidas/{id_partida}")
     Call<Partida> getPartidaDetalle(@Path("id_partida") String idPartida);
 
+    //Pregunta
 
+    @POST("pregunta")
+    Call<Void> registrarPregunta(@Body Pregunta pregunta);
 
 
 }

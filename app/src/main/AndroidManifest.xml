@@ -65,5 +65,9 @@
         <activity
             android:name=".PartidaActivity"
             android:exported="true" />
+
+        <activity
+            android:name=".PreguntaActivity"
+            android:exported="true" />
     </application>
 </manifest>
